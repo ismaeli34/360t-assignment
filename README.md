@@ -1,18 +1,4 @@
 # 360t-assignment
-
-Ensure you have Maven and Java installed.
-Check versions:
-java -version
-mvn -v
-Navigate to your project root (where pom.xml is).
-Compile and run:
-mvn clean compile exec:java -Dexec.mainClass="com.example.JavaAssignment.Application"
-Expected behavior/output:
-Player1 sending: [Player1 -> Player2] Hello
-Player2 received: [Player1 -> Player2] Hello
-Player2 sending: [Player2 -> Player1] Hello-1
-Player1 received: [Player2 -> Player1] Hello-1
-Player1 sending: [Player1 -> Player2] Hello-1-1
-...
-Player1 finished after 10 messages.
-This runs both players in the same JVM, meeting your single-process requirement.
+## Screenshots
+<img width="711" height="446" alt="Screenshot 2025-10-07 at 13 46 16" src="https://github.com/user-attachments/assets/9830d484-57f1-4335-82f9-49bf3051bd0f" />
+<img width="1393" height="731" alt="Screenshot 2025-10-07 at 13 46 45" src="https://github.com/user-attachments/assets/e4a433d6-6f09-4b52-af40-828f23b15a31" />
